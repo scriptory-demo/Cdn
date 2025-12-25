@@ -1,3 +1,29 @@
+<div class="vote-widget">
+  
+  <button class="vote-btn like-btn" id="likeBtn">
+    <div class="icon-layer">
+      <svg viewBox="0 0 24 24" class="icon-default">
+        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+      </svg>
+      <div class="particles" id="likeParticles"></div>
+    </div>
+    <span class="count-ticker" id="likeCount">0</span>
+  </button>
+
+  <div class="separator"></div>
+
+  <button class="vote-btn dislike-btn" id="dislikeBtn">
+    <div class="icon-layer">
+      <svg viewBox="0 0 24 24" class="icon-default">
+        <path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-3"></path>
+      </svg>
+      <div class="particles" id="dislikeParticles"></div>
+    </div>
+    <span class="count-ticker" id="dislikeCount">0</span>
+  </button>
+
+</div>
+
 // --- CONFIGURATION ---
 const firebaseConfig = {
   apiKey: "AIzaSyDY7Y4oWT6kanY1CAgtZwu6ZYsBuOIs9K4",
